@@ -1,0 +1,46 @@
+body {
+    background-color: #f8f9fa; /* Light grey background */
+}
+
+header {
+    background-color: #343a40; /* Dark grey header */
+    color: #ffffff; /* White text */
+    padding: 20px 0;
+}
+
+footer {
+    background-color: #343a40; /* Dark grey footer */
+    color: #ffffff; /* White text */
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.container {
+    margin-top: 50px; /* Space between header and buttons */
+}
+
+.btn {
+    font-size: 18px; /* Larger button text */
+    border-radius: 20px; /* Rounded corners */
+}
+
+.btn-block {
+    width: 80%; /* 80% width for buttons */
+    margin: 0 auto; /* Center buttons horizontally */
+}
+
+#output {
+    margin-top: 20px; /* Space between buttons and output */
+}
+
+.card {
+    margin-bottom: 20px; /* Space between cards */
+    border-radius: 10px; /* Rounded corners for cards */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.card-body {
+    padding: 20px; /* Padding inside cards */
+}
